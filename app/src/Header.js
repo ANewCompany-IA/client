@@ -1,4 +1,4 @@
-import { FaShoppingCart, FaUser, FaShoppingBag, FaSearch } from 'react-icons/fa';
+import { FaShoppingCart, FaUser, FaShoppingBag } from 'react-icons/fa';
 
 function Header(props) {
   return (
