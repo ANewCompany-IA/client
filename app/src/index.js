@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import '@fontsource/open-sans';
 import '@fontsource/open-sans/400.css';
 import '@fontsource/open-sans/400-italic.css';
+import 'react-multi-carousel/lib/styles.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

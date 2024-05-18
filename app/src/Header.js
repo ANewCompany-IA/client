@@ -2,9 +2,9 @@ import { FaShoppingCart, FaUser, FaShoppingBag } from 'react-icons/fa';
 
 function Header(props) {
   return (
-    <nav className={`fixed bg-gray-950 text-white w-full flex flex-col justify-center py-4 ${props.className}`}>
+    <nav className={`fixed bg-gray-950 text-white w-full flex flex-col justify-center py-4 z-[1000] ${props.className}`}>
       <div className="first-level-nav flex flex-row items-center justify-between">
-        <span className="hidden md:block text-2xl">ANewCompany.IA</span>
+        <span className="hidden md:block text-2xl font-bold">ANewCompany.IA</span>
         <input type="text" className="block rounded-md bg-gray-900 w-80 text-gray-500 px-2 py-1 ring-1 ring-gray-800 placeholder:text-gray-500" placeholder="Search" />
       </div>
       <div className="second-level-nav flex flex-row justify-between mt-3">
